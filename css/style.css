@@ -1,0 +1,26 @@
+@import url("../css/cabecalho.css");
+@import url("../css/corpo.css");
+@import url("../css/propagandas.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+/* PALETA DE CORES */
+:root {
+    --branco: #ffffff;
+    --preto: #000;
+    --trasnparente: #00000066;
+    --vermelho: #e50914;
+    --texto-cinza: #737373;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: var(--preto); */
+}
+

@@ -1,0 +1,59 @@
+.cabecalho {
+    width: 100%;
+    height: 80px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to bottom, var(--preto) 30%, transparent);
+    position: relative;
+    z-index: 999;
+}
+
+.cabecalho-logo-link {
+    width: 90px;
+    height: 80%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.cabecalho-logo-link img {
+    width: 100%;
+}
+
+.cabecalho-idiomas {
+    width: 110px;
+    height: 28.2px;
+    border: 1px solid var(--branco);
+    border-radius: 5px;
+    padding: 4px 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.idiomas {
+    border: none;
+    background-color: transparent;
+    color: var(--branco);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cabecalho-entrar {
+    width: 55.23px;
+    height: 24.8px;
+    border: solid transparent;
+    border-radius: 5px;
+    margin-left: 3%;
+    padding: 4px 8px;
+    background-color: var(--vermelho);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}

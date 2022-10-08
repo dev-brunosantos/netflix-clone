@@ -1,0 +1,6 @@
+.propagandas {
+    width: 100%;
+    height: 68vh;
+    background-color: var(--preto);
+    border-bottom: 8px solid var(--texto-cinza);
+}
