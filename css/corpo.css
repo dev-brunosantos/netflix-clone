@@ -8,7 +8,7 @@
 .tela-principal {
     width: 100%;
     height: 78vh;
-    border-bottom: 8px solid var(--texto-cinza);
+    border-bottom: 8px solid var(--cinza);
     padding-top: 30%;
     background-color: red;
     background: url("../img/img-fundo-principal.jpg") no-repeat center;
@@ -29,7 +29,7 @@
 
 .tela-principal h1 {
     width: 95%;
-    margin: 0 0 .4em;
+    margin: 0 auto;
     font-size: 27px;
     /* font-size: 2rem; */
     font-weight: 700;
@@ -39,7 +39,7 @@
 .tela-principal h2 {
     width: 90%;
     /* margin: 0.75em 0 0.25em; */
-    margin: 15px 0;
+    margin: 15px auto;
     font-size: 1.125rem;
     font-weight: 400;
     text-align: center;

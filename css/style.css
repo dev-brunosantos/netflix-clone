@@ -13,14 +13,17 @@
 :root {
     --branco: #ffffff;
     --preto: #000;
+    --cinza: #222;
     --trasnparente: #00000066;
     --vermelho: #e50914;
     --texto-cinza: #737373;
+    --texto-azul: #0071eb;
 }
 
 body {
     width: 100vw;
     height: 100vh;
+    overflow-x: none;
     /* background-color: var(--preto); */
 }
 

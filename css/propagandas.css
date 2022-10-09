@@ -2,5 +2,119 @@
     width: 100%;
     height: 68vh;
     background-color: var(--preto);
-    border-bottom: 8px solid var(--texto-cinza);
+    border-bottom: 8px solid var(--cinza);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+}
+
+.textos {
+    width: 100%;
+    /* height: 116.2px; */
+    height: 130.2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.textos h1 {
+    /* font-size: 2rem; */
+    font-size: 1.5rem;
+    margin-bottom: px;
+}
+
+.textos h2 {
+    width: 337.7px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.imagens {
+    width: 337.7px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.imagens img {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+}
+
+.video {
+    width: 249px;
+    height: 140px;
+    position: absolute;
+    top: 50px;
+    left: 41px;
+    z-index: 80;
+    position: absolute;
+    z-index: 1;
+}
+
+.video video {
+    width: 100%;
+    height: 100%;
+}
+
+.video2 {
+    width: 200px;
+    height: 110px;
+    position: absolute;
+    top: 12%;
+}
+
+.video2 video {
+    width: 100%;
+}
+.download {
+    width: 264.8px;
+    height: 70px;
+    border: 3px solid var(--cinza);
+    border-radius: 15px;
+    padding: 0.25em 0.30em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--preto);
+    z-index: 999;
+    position: absolute;
+    top: 60%;
+}
+
+.download img {
+    width: auto;
+    height: 3em;
+}
+.textos2 {
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    /* border: solid red; */
+}
+
+.textos2-titulo {
+    font-size: 0.9em;
+}
+
+.textos2-download {
+    color: var(--texto-azul);
+    font-size: .75em;
+}
+
+.download-carregando {
+    width: 48px;
+    height: 48px;
+    background: url("../img/img-download-icon.gif");
+    background-size: cover;
+}
+
+.perfil-crianca h1 {
+    margin-bottom: 20px;
 }
