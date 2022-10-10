@@ -1,7 +1,18 @@
-// var item = document.querySelectorAll('.perguntas-item');
+var idioma = document.querySelector('.idiomas');
+
+alterarIdioma();
+
+function alterarIdioma() {
+    if(idioma.value == "portugues") {
+        document.body.lang('pt')
+    }
+    if(idioma.value == "english") {
+        document.body.lang('en')
+    }
+}
+
 var botoes = document.querySelectorAll('.btn');
 const icone = document.querySelectorAll('.icone');
-// var resumo = document.querySelector('.resumo');
 
 var resumo1 = document.getElementById('resumo1')
 var resumo2 = document.getElementById('resumo2')
@@ -34,3 +45,4 @@ function resposta6() {
     icone[5].classList.toggle('icone-girar')
     resumo6.classList.toggle('resumo-abrir')
 }
+
