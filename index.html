@@ -32,7 +32,7 @@
                 <h1>Filmes, séries e muito mais. Sem limites.</h1>
                 <h2>Assista onde quiser. Cancele quando quiser.</h2>
     
-                <form class="tela-principal-formulario">
+                <form class="formulario">
                     <h3>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
     
                     <div class="formulario-email">
@@ -44,7 +44,7 @@
             </div>
         </section>
 
-        <section class="segunda-tela propagandas">
+        <section class="tela-tv propagandas">
             <div class="textos">
                 <h1>Aproveite na TV.</h1>
                 <h2>Assista em Smart TVs, PlayStation, <br> Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</h2>
@@ -59,7 +59,7 @@
             </div>
         </section>
 
-        <section class="terceira-tela propagandas">
+        <section class="downloads propagandas">
             <div class="textos">
                 <h1>Baixe séries para assistir <br> offline.</h1>
                 <h2>Salve seus títulos favoritos e sempre tenha algo para assistir.</h2>
@@ -83,7 +83,7 @@
             </div>
         </section>
 
-        <section class="quarta-tela propagandas">
+        <section class="dispositivos propagandas">
             <div class="textos">
                 <h1>Aproveite na TV.</h1>
                 <h2>Assista em Smart TVs, PlayStation, <br> Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</h2>
@@ -108,9 +108,155 @@
                 <img src="img/img-desenho-quarta-tela.png" alt="">
             </div>
         </section>
+
+        <section class="perguntas">
+            <h1>Perguntas frequentes</h1>
+
+            <ul class="perguntas-lista" >
+                
+                <!-- PERGUNTA DE Nº 1 -->
+                <li class="perguntas-item" value="1" onclick="resposta1()">
+                    <button value="1" class="btn">O que é a Netflix?</button>
+
+                    <div class="icone">+</div>
+                </li>
+
+                <div id="resumo1" class="resumo">
+                    <span>
+                        A Netflix é um serviço de transmissão online que oferece uma ampla variedade de séries, filmes e documentários premiados em milhares de aparelhos conectados à internet.
+                        
+                        <br>
+                        <br>
+
+                        Você pode assistir a quantos filmes e séries quiser, quando e onde quiser, sem comerciais – tudo por um preço mensal bem acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e filmes.
+                    
+                    </span>
+                </div>
+                <!-- PERGUNTA DE Nº 2 -->
+                <li class="perguntas-item" onclick="resposta2()">
+                    <button value="2" class="btn">Quanto custa a Netflix?</button>
+
+                    <div class="icone">+</div>
+                </li>
+
+                <div id="resumo2" class="resumo">
+                    <span>
+                        Assista à Netflix no seu celular, tablet, Smart TV, notebook ou aparelho de streaming por uma taxa mensal única. Os planos variam de R$25,90 a R$55,90 por mês. Sem contrato nem taxas extras.
+                    </span>
+                </div>
+                <!-- PERGUNTA DE Nº 3 -->
+                <li class="perguntas-item" onclick="resposta3()">
+                    <button value="3" class="btn">Onde posso assistir?</button>
+
+                    <div class="icone">+</div>
+                </li>
+
+                <div id="resumo3" class="resumo">
+                    <span>
+                        Assista onde quiser, quando quiser. Faça login com sua conta Netflix em netflix.com para começar a assistir no computador ou em qualquer aparelho conectado à Internet compatível com o aplicativo Netflix, como Smart TVs, smartphones, tablets, aparelhos de streaming e videogames.
+                        <br>
+                        <br>
+                        Você também pode baixar a sua série favorita com o aplicativo Netflix para iOS, Android ou Windows 10. Use downloads para levar a Netflix para onde quiser sem precisar de conexão com a Internet. Leve a Netflix com você para qualquer lugar.
+                    </span>
+                </div>
+                <!-- PERGUNTA DE Nº 4 -->
+                <li class="perguntas-item" onclick="resposta4()">
+                    <button value="4" class="btn">Como faço para cancelar?</button>
+
+                    <div class="icone">+</div>
+                </li>
+
+                <div id="resumo4" class="resumo">
+                    <span>
+                        A Netflix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua conta na internet com apenas dois cliques. Não há taxa de cancelamento – você pode começar ou encerrar a sua assinatura a qualquer momento.
+                    </span>
+                </div>
+                <!-- PERGUNTA DE Nº 5 -->
+                <li class="perguntas-item" onclick="resposta5()">
+                    <button value="5" class="btn">O que eu posso assistir na Netflix?</button>
+
+                    <div class="icone">+</div>
+                </li>
+
+                <div id="resumo5" class="resumo">
+                    <span>
+                        A Netflix tem um grande catálogo de filmes, documentários, séries, originais Netflix premiados e muito mais. Assista o quanto quiser, quando quiser.
+                    </span>
+                </div>
+                <!-- PERGUNTA DE Nº 6 -->
+                <li class="perguntas-item" onclick="resposta6()">
+                    <button value="6" class="btn">A Netflix é adequada para crianças?</button>
+
+                    <div class="icone">+</div>
+                </li>
+
+                <div id="resumo6" class="resumo">
+                    <span>
+                        A experiência infantil da Netflix faz parte da sua assinatura para que as crianças se divirtam em seu próprio espaço com séries e filmes familiares sob a supervisão dos responsáveis.
+                        <br>
+                        <br>
+                        O recurso de controle parental, incluso nos perfis para crianças e protegido por PIN, permite restringir a classificação etária do conteúdo que as crianças podem ver e bloquear títulos específicos que você não quer que elas assistam.
+                    </span>
+                </div>
+            </ul>
+
+            <form class="formulario">
+                <h3>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+
+                <div class="formulario-email">
+                    <input type="email" class="email" placeholder="Email">
+
+                    <button class="vamos-la">Vamos lá</button>
+                </div>
+            </form>            
+        </section>
+
+        <footer class="rodape">
+            <div class="duvidas largura">
+                <p>
+                    Dúvidas? Ligue 
+                    <a href="tel:0000 000 0000" class="tel">0800 591 8942</a>
+                </p>
+            </div>
+
+            <ul class="rodape-lista largura">
+                <li class="rodape-item"> <a href="#">Perguntas frequentes</a> </li>
+                <li class="rodape-item"> <a href="#">Conta</a> </li>
+                <li class="rodape-item"> <a href="#">Relações com <br> investidores</a> </li>
+                <li class="rodape-item"> <a href="#">Resgatar cartão pré- <br> pago</a> </li>
+                <li class="rodape-item"> <a href="#">Formas de assistir</a> </li>
+                <li class="rodape-item"> <a href="#">Privacidade</a> </li>
+                <li class="rodape-item"> <a href="#">Informações <br> corporativas</a> </li>
+                <li class="rodape-item"> <a href="#">Teste de velocidade</a> </li>
+                <li class="rodape-item"> <a href="#">Só na Netflix</a> </li>
+
+                <!-- <br> -->
+
+                <li class="rodape-item"> <a href="#">Central de Ajuda</a> </li>
+                <li class="rodape-item"> <a href="#">Media Center</a> </li>
+                <li class="rodape-item"> <a href="#">Carreiras</a> </li>
+                <li class="rodape-item"> <a href="#">Comprar cartão pré- <br> pago</a> </li>
+                <li class="rodape-item"> <a href="#">Termos de Uso</a> </li>
+                <li class="rodape-item"> <a href="#">Preferências de <br> cookies</a> </li>
+                <li class="rodape-item"> <a href="#">Entre em contato</a> </li>
+                <li class="rodape-item"> <a href="#">Avisos legais</a> </li>
+
+            </ul>
+
+            <div class="rodape-idioma largura">
+                <select id="idiomas" class="idiomas">
+                    <option lang="pt-br" value="portugues" data-language="pt" data-country="BR">Português</option>
+                    <option lang="en" value="english" data-language="en" data-country="BR">English</option>
+                </select>
+            </div>
+
+            <p class="final largura">Netflix Brasil</p>
+        </footer>
     </main>
 
-    <footer class="rodape"></footer>
+    
+
+    <!-- <div class="fundo-degrade"></div> -->
 
     <script src="js/main.js"></script>
 </body>

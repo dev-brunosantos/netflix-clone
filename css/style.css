@@ -1,12 +1,15 @@
 @import url("../css/cabecalho.css");
 @import url("../css/corpo.css");
 @import url("../css/propagandas.css");
+@import url("../css/rodape.css");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 
 /* PALETA DE CORES */
@@ -14,6 +17,7 @@
     --branco: #ffffff;
     --preto: #000;
     --cinza: #222;
+    --cinza2: #303030;
     --trasnparente: #00000066;
     --vermelho: #e50914;
     --texto-cinza: #737373;
@@ -26,4 +30,14 @@ body {
     overflow-x: none;
     /* background-color: var(--preto); */
 }
+
+/* .fundo-degrade {
+    width: 100%;
+    height: 2350px;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    opacity: 3;
+} */
+
 

@@ -33,6 +33,10 @@
     margin-left: 20%;
 }
 
+.cabecalho-idiomas::before {
+    content: "\e896";
+}
+
 .idiomas {
     border: none;
     background-color: transparent;
